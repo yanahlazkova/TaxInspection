@@ -21,6 +21,7 @@ import random
 
 fake = Faker()
 
+
 class Fine:
     def __init__(self, fine_type: str, amount: float, city: str):
         self.fine_type = fine_type
