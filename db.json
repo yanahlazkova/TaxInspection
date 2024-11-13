@@ -1,0 +1,324 @@
+{
+    "people": {
+        "759e8c3b-7f36-4365-9c2f-b72aedd13dae": {
+            "id_code": "759e8c3b-7f36-4365-9c2f-b72aedd13dae",
+            "name": "Sheri Turner",
+            "fines": [
+                {
+                    "type": "Штраф за порушення митного законодавства",
+                    "amount": 174.0936903586471,
+                    "city": "Melissafurt"
+                },
+                {
+                    "type": "Штраф за порушення термінів подання податкової звітності",
+                    "amount": 117.25907158674356,
+                    "city": "East Tanya"
+                }
+            ]
+        },
+        "ecac790b-65fa-4103-bfbe-65f36e049b5e": {
+            "id_code": "ecac790b-65fa-4103-bfbe-65f36e049b5e",
+            "name": "Patrick Haynes",
+            "fines": [
+                {
+                    "type": "Штраф за порушення термінів подання податкової звітності",
+                    "amount": 611.719633264437,
+                    "city": "South Lindaview"
+                },
+                {
+                    "type": "Штраф за використання незареєстрованих РРО",
+                    "amount": 149.69983900879393,
+                    "city": "Jonathanmouth"
+                }
+            ]
+        },
+        "c4217d3d-886c-4e8b-822e-e0d5a5ae2c33": {
+            "id_code": "c4217d3d-886c-4e8b-822e-e0d5a5ae2c33",
+            "name": "Isaac Smith",
+            "fines": [
+                {
+                    "type": "Штраф за використання незареєстрованих РРО",
+                    "amount": 131.4957966038488,
+                    "city": "Randolphborough"
+                },
+                {
+                    "type": "Штраф за використання незареєстрованих РРО",
+                    "amount": 431.1297090853344,
+                    "city": "Dorseymouth"
+                }
+            ]
+        },
+        "d7d1aa54-4bde-47a6-b108-bc85e91da0bb": {
+            "id_code": "d7d1aa54-4bde-47a6-b108-bc85e91da0bb",
+            "name": "Carl Ross",
+            "fines": [
+                {
+                    "type": "Штраф за порушення митного законодавства",
+                    "amount": 564.0126762114375,
+                    "city": "Taylorfurt"
+                },
+                {
+                    "type": "Адміністративний штраф",
+                    "amount": 521.5777481666737,
+                    "city": "South Lindaview"
+                }
+            ]
+        },
+        "4c0c54dc-dc25-48db-a29c-3fb8465761a9": {
+            "id_code": "4c0c54dc-dc25-48db-a29c-3fb8465761a9",
+            "name": "Walter Russell",
+            "fines": [
+                {
+                    "type": "Штраф за несплату податків",
+                    "amount": 775.5810491918417,
+                    "city": "New Jenniferville"
+                },
+                {
+                    "type": "Штраф за несплату податків",
+                    "amount": 612.079176291963,
+                    "city": "Thomasmouth"
+                }
+            ]
+        },
+        "e9f0fdc5-5284-467e-9173-4db2116aaed4": {
+            "id_code": "e9f0fdc5-5284-467e-9173-4db2116aaed4",
+            "name": "Eric Olson",
+            "fines": [
+                {
+                    "type": "Штраф за використання незареєстрованих РРО",
+                    "amount": 666.5348177067572,
+                    "city": "Dorseymouth"
+                },
+                {
+                    "type": "Штраф за порушення термінів подання податкової звітності",
+                    "amount": 572.6490338210438,
+                    "city": "Dorseymouth"
+                }
+            ]
+        },
+        "10e27888-36e1-4322-b054-660ecb2f3408": {
+            "id_code": "10e27888-36e1-4322-b054-660ecb2f3408",
+            "name": "Emily Waters",
+            "fines": [
+                {
+                    "type": "Штраф за несплату податків",
+                    "amount": 869.4369582966679,
+                    "city": "Jonathanmouth"
+                },
+                {
+                    "type": "Адміністративний штраф",
+                    "amount": 70.57307387933865,
+                    "city": "New Jenniferville"
+                }
+            ]
+        },
+        "787cbf09-8663-48e6-b6d2-ca7fb7200b3c": {
+            "id_code": "787cbf09-8663-48e6-b6d2-ca7fb7200b3c",
+            "name": "Joseph Ramirez",
+            "fines": [
+                {
+                    "type": "Штраф за використання незареєстрованих РРО",
+                    "amount": 51.037827886304385,
+                    "city": "New Tyler"
+                },
+                {
+                    "type": "Штраф за порушення термінів подання податкової звітності",
+                    "amount": 671.1729879962716,
+                    "city": "Thomasmouth"
+                }
+            ]
+        },
+        "2c6cef7d-4b67-408a-899a-6ac7bab9bea0": {
+            "id_code": "2c6cef7d-4b67-408a-899a-6ac7bab9bea0",
+            "name": "Pam Wade",
+            "fines": [
+                {
+                    "type": "Штраф за порушення термінів подання податкової звітності",
+                    "amount": 267.90029963394977,
+                    "city": "Port Kelly"
+                },
+                {
+                    "type": "Штраф за порушення митного законодавства",
+                    "amount": 129.90863726863682,
+                    "city": "Duarteport"
+                }
+            ]
+        },
+        "80b4438d-a406-42ed-b35a-41d79ef3b0a3": {
+            "id_code": "80b4438d-a406-42ed-b35a-41d79ef3b0a3",
+            "name": "Jonathan Wiggins",
+            "fines": [
+                {
+                    "type": "Штраф за порушення правил ведення податкового обліку",
+                    "amount": 996.8454820247096,
+                    "city": "Port Kelly"
+                },
+                {
+                    "type": "Штраф за порушення термінів подання податкової звітності",
+                    "amount": 269.3546446739367,
+                    "city": "Zimmermanhaven"
+                }
+            ]
+        },
+        "86b851cb-a819-4ac8-9e81-3ec519a6515d": {
+            "id_code": "86b851cb-a819-4ac8-9e81-3ec519a6515d",
+            "name": "Amy Andrade",
+            "fines": [
+                {
+                    "type": "Фінансова відповідальність за недотримання валютного контролю",
+                    "amount": 463.0350422476876,
+                    "city": "Amandaton"
+                },
+                {
+                    "type": "Адміністративний штраф",
+                    "amount": 144.43382390349308,
+                    "city": "South Lindaview"
+                }
+            ]
+        },
+        "b5687484-1000-4769-97a9-4edfffc6ca30": {
+            "id_code": "b5687484-1000-4769-97a9-4edfffc6ca30",
+            "name": "Alexis Rivera",
+            "fines": [
+                {
+                    "type": "Штраф за порушення у сфері акцизного податку",
+                    "amount": 310.35556585520044,
+                    "city": "East Joseph"
+                },
+                {
+                    "type": "Штраф за порушення у сфері акцизного податку",
+                    "amount": 95.06840523154766,
+                    "city": "Lake Jennafurt"
+                }
+            ]
+        },
+        "9ad5d83b-aa66-4aa4-bc97-1fe254d11ee2": {
+            "id_code": "9ad5d83b-aa66-4aa4-bc97-1fe254d11ee2",
+            "name": "Bethany Martin",
+            "fines": [
+                {
+                    "type": "Штраф за порушення митного законодавства",
+                    "amount": 917.3783970258061,
+                    "city": "Taylorfurt"
+                },
+                {
+                    "type": "Штраф за порушення митного законодавства",
+                    "amount": 512.504810308736,
+                    "city": "Jasminestad"
+                }
+            ]
+        },
+        "2fffe761-f897-4cb7-8c9d-d52f7779daed": {
+            "id_code": "2fffe761-f897-4cb7-8c9d-d52f7779daed",
+            "name": "Mike Church",
+            "fines": [
+                {
+                    "type": "Штраф за порушення митного законодавства",
+                    "amount": 116.34165251765117,
+                    "city": "Thomasmouth"
+                },
+                {
+                    "type": "Адміністративний штраф",
+                    "amount": 629.3832692872661,
+                    "city": "Melissafurt"
+                }
+            ]
+        },
+        "48cc96ca-af34-4b3b-8b95-d8502ab27025": {
+            "id_code": "48cc96ca-af34-4b3b-8b95-d8502ab27025",
+            "name": "Katherine Chaney",
+            "fines": [
+                {
+                    "type": "Штраф за порушення митного законодавства",
+                    "amount": 270.72931248249904,
+                    "city": "Stacyberg"
+                },
+                {
+                    "type": "Фінансова відповідальність за недотримання валютного контролю",
+                    "amount": 293.8177443682258,
+                    "city": "East Tanya"
+                }
+            ]
+        },
+        "64393ce8-4f5a-4556-9dfd-893bf94278c4": {
+            "id_code": "64393ce8-4f5a-4556-9dfd-893bf94278c4",
+            "name": "Tony Rangel",
+            "fines": [
+                {
+                    "type": "Адміністративний штраф",
+                    "amount": 587.4566113850814,
+                    "city": "East Joseph"
+                },
+                {
+                    "type": "Фінансова відповідальність за недотримання валютного контролю",
+                    "amount": 863.8688366494243,
+                    "city": "New Tyler"
+                }
+            ]
+        },
+        "5e94f658-27b8-4598-b62d-19fb59a22c21": {
+            "id_code": "5e94f658-27b8-4598-b62d-19fb59a22c21",
+            "name": "Dylan Prince",
+            "fines": [
+                {
+                    "type": "Штраф за порушення термінів подання податкової звітності",
+                    "amount": 295.42111212173836,
+                    "city": "Zimmermanhaven"
+                },
+                {
+                    "type": "Штраф за порушення митного законодавства",
+                    "amount": 670.4803385621357,
+                    "city": "South William"
+                }
+            ]
+        },
+        "58dcb435-050b-475e-8c9b-675b96afae78": {
+            "id_code": "58dcb435-050b-475e-8c9b-675b96afae78",
+            "name": "Belinda Travis",
+            "fines": [
+                {
+                    "type": "Адміністративний штраф",
+                    "amount": 162.07867755601563,
+                    "city": "Zimmermanhaven"
+                },
+                {
+                    "type": "Штраф за несплату податків",
+                    "amount": 247.53714805599995,
+                    "city": "Lake Staceyview"
+                }
+            ]
+        },
+        "e6d75736-39f1-4dd5-b2c2-2e9a2b7d0ca8": {
+            "id_code": "e6d75736-39f1-4dd5-b2c2-2e9a2b7d0ca8",
+            "name": "Brittany Lopez",
+            "fines": [
+                {
+                    "type": "Штраф за порушення термінів подання податкової звітності",
+                    "amount": 144.78441993635877,
+                    "city": "South Lindaview"
+                },
+                {
+                    "type": "Штраф за порушення правил ведення податкового обліку",
+                    "amount": 228.96337303101063,
+                    "city": "Riggsland"
+                }
+            ]
+        },
+        "a84c50cb-a56f-4aec-86aa-63c7fd7beaf7": {
+            "id_code": "a84c50cb-a56f-4aec-86aa-63c7fd7beaf7",
+            "name": "Erin Morris",
+            "fines": [
+                {
+                    "type": "Штраф за використання незареєстрованих РРО",
+                    "amount": 107.28915636152847,
+                    "city": "South Lindaview"
+                },
+                {
+                    "type": "Штраф за несплату податків",
+                    "amount": 132.67661303808597,
+                    "city": "East Joseph"
+                }
+            ]
+        }
+    }
+}
