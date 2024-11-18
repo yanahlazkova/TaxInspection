@@ -164,7 +164,7 @@ for _ in range(20):
     person = Person(str(uuid.uuid4()), fake.name())
     db.add_person(uuid.uuid4(), fake.name())# (person)
 
-with open('fines1.json') as file:
+with open('../fines1.json') as file:
     fines_dict = json.load(file)
 
 list_fine = list(fine_type['type'] for fine_type in fines_dict['tax_fines'])
@@ -266,7 +266,7 @@ add_random_fines()
 db_binary = DBBinaryTree()
 
 # загрузка БД з файлу
-with open('db.json', 'r', encoding='utf-8') as file:
+with open('../db.json', 'r', encoding='utf-8') as file:
     data_json = json.load(file)
 
 # додавання даних з файлу у БД

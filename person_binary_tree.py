@@ -5,25 +5,25 @@ class Person:
     def __init__(self, code_id: str, name: str):
         self.name = name
         self.code_id = code_id
-        self.list_fine = FineLinkedList()
+        self.list_fines = FineLinkedList()
 
     def add_fine(self, fine):
-        self.list_fine.append(fine)
+        self.list_fines.append(fine)
     
     def __repr__(self):
         print(f'\n{self.name}\tid: {self.code_id}\n')
         print(f'\tFines:')
-        return f'\t{self.list_fine.print_list_fines()}'
+        return f'\t{self.list_fines.print_list_fines()}'
 
-    def search_by_type_fine(self, type_fine: str):
-        return self.list_fine.search_by_type_fine(type_fine)
+    # def search_by_type_fine(self, type_fine: str):
+    #     return self.list_fines.search_by_type_fine(type_fine)
 
-    def search_by_city(self, city: str):
-        return self.list_fine.search_by_city(city)
+    # def search_by_city(self, city: str):
+    #     return self.list_fines.search_by_city(city)
 
-    def delete_fine(self, fine):
-        result = self.list_fine.delete_fine(fine)
-        return result
+    # def delete_fine(self, fine):
+    #     result = self.list_fines.delete_fine(fine)
+    #     return result
 
 
 class PersonNode:
@@ -56,6 +56,13 @@ class PersonBT:
             else:
                 node.right = PersonNode(key, data)
 
+    def add_fine_to_list(self, node_id, fine):
+        found_node = self.search_by_id(node_id)
+        if found_node:
+            found_node.list_fines.append(fine)
+        else:
+            print('Person don\'t found!!!')
+
     def search_by_id(self, key):
         return self.__search_by_id(self.root, key)
 
@@ -72,20 +79,12 @@ class PersonBT:
     def search_by_type_fine(self, node, key):
         if not node:
             return None
-        return node.data.search_by_type_fine(key)
+        return node.data.list_fines.search_by_type_fine(key)
 
     def search_by_city(self, node, key):
         if not node:
             return None
-        return node.data.search_by_city(key)
-
-    def delete_fine(self, node, key):
-        result = node.delete_fine(key)
-        print()
-        if result:
-            print(f'Fine {key} DELETED...')
-        else:
-            print(f'fine {key} don\'t found...')
+        return node.data.list_fines.search_by_city(key)
 
     def print_all(self, node=None):
         if node is None:
@@ -143,12 +142,19 @@ class PersonBT:
                 if node.right:
                     self.__print_by_fine(node.right, key)
 
-    def update(self, code_id, new_name=None, fine=None, new_fine=None):
-        found_node = self.search_by_id(code_id)
+    def delete_fine(self, node, fine):
+        result = node.delete_fine(fine)
+        print()
+        if result:
+            print(f'Fine {fine} DELETED...')
+        else:
+            print(f'fine {fine} don\'t found...')
+
+    def update(self, node, new_name=None, fine=None, new_fine=None):
         if new_name:
-            found_node.name = new_name
+            node.name = new_name
         if new_fine:
-            found_fine = found_node.list_fine.update(fine, new_fine)
-        print('update...', found_node)
+            node.list_fines.update(fine, new_fine)
+        print('update...', node)
 
 
