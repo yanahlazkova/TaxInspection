@@ -1,4 +1,6 @@
 from binary_tree import BinaryTree
+
+
 class DBBinaryTree:
     def __init__(self):
         self.person = BinaryTree()
